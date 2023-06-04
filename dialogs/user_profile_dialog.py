@@ -2,7 +2,7 @@
 # Licensed under the MIT License.
 
 from botbuilder.dialogs import ComponentDialog, WaterfallDialog, WaterfallStepContext, DialogTurnResult
-from botbuilder.dialogs.prompts import TextPrompt, NumberPrompt, ChoicePrompt, ConfirmPrompt, AttachmentPrompt, 
+from botbuilder.dialogs.prompts import TextPrompt, NumberPrompt, ChoicePrompt, ConfirmPrompt, AttachmentPrompt
 from botbuilder.dialogs.prompts import PromptOptions, PromptValidatorContext
 from botbuilder.dialogs.choices import Choice
 from botbuilder.core import MessageFactory, UserState
