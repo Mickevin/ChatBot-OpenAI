@@ -13,8 +13,8 @@ from gtts import gTTS
 class DefaultConfig:
     """ Bot Configuration """
 
-    PORT = 3970
-    APP_ID = os.environ.get("MicrosoftAppId", "")
+    PORT = 8000
+    APP_ID = os.environ.get("MicrosoftAppId", "e3066ff2-911e-4324-9a3a-6f500ef5d30b")
     APP_PASSWORD = os.environ.get("MicrosoftAppPassword", "")
     OPENAI_KEY = os.getenv('OPENAI_KEY')
 
