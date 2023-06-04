@@ -14,7 +14,7 @@ class DefaultConfig:
     """ Bot Configuration """
 
     PORT = 8000
-    APP_ID = os.environ.get("MicrosoftAppId", "e3066ff2-911e-4324-9a3a-6f500ef5d30b")
+    APP_ID = os.environ.get("MicrosoftAppId", "bb603263-8b71-439d-8323-4df38c549a60")
     APP_PASSWORD = os.environ.get("MicrosoftAppPassword", "")
     OPENAI_KEY = os.getenv('OPENAI_KEY')
 
